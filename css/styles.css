@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-image: url(../images/stormy-road.png);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #efefef;
+
+
+}
+
+.navbar-nav a {
+    float: right;
+    color: #fff!important;
+}
+
+.navbar-brand a {
+    color: #fff;    
+}
+
+.navbar-brand {
+    font-family: 'Aclonica';
+    font-size: 23px;
+    margin-left: 30px;
+}
+
+.navbar-toggler {
+    border: none!important;
+    outline: none!important;
+}
+
+nav .fa-bars {
+    color:  #fff;
+    font-size: 30px;
+}
+
+/* ----------------------------- WELCOME --------------------------- */
+
+.welcome {
+    max-height: 260px;
+    padding: 50px 115px;
+    margin-top: -200px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    
+}
+
+
+.welcome h1 {
+    color: #333;
+}
+
+
+/* ----------------------------- ABOUT --------------------------- */
+
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about h1 {
+    margin-top: -40px;
+}
+
+#about .col-md-6 {
+    padding: 20px 10px;
+}
+
+#about h3 {
+    padding: 20px auto;
+}
+
+#about ul {
+    padding: 5px 0 0 15px;
+    text-align: justify;
+    font-size: 18px;
+    list-style: none;
+}
+
+/* ----------------------------- SKILLS --------------------------- */
+
+#skills {
+   padding-top: 100px;
+   padding-bottom: 100px; 
+   background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+   background-image: url(../images/coding.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   color: #fff;
+}
+
+#skills h1 {
+    text-align: center;
+    color: rgb(21, 255, 0);
+}
+
+#skills .col-md-4 {
+    padding: 20px;
+    top: 50px;
+}
+
+#skills .container {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+#skills img {
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#wrap {
+    padding: 10px;
+}
+
+.skills-box {
+    height: 120px;
+}
+
+.skills-box .skills-left {
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+
+.skills-box .skills-left .fab, .fa, .fas {
+    padding-top: 10px;
+    font-size: 80px;
+}
+
+
+.skills-box .skills-right {
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+
+.skills-box .skills-right h4 {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.skills-box .skills-right p {
+    padding: 0 5px 0 5px;
+    text-align: left;
+}
+
+
+
+/* ----------------------------- RESUME --------------------------- */
+
+#resume {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border: 3px solid black;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+#resume h1 {
+    margin-top: -60px;
+    text-decoration: underline;
+    padding: 30px;
+}
+
+#resume h4 {
+    margin-top: -20px;
+    font-size: 32px;
+    text-align: center;
+}
+
+#resume .col-md-6 {
+    padding: 10px 40px 0 40px;
+}
+
+
+#resume .col-md-6 h4 p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#resume .col-md-6 img {
+    width: auto;
+    height: 70px;
+    float: left;
+}
+
+#resume .col-md-6 ul {
+    padding: 15px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+#resume .col-md-6 a {
+    color:blue;
+    text-decoration: underline;
+}
+
+#resume .col-md-6 a:hover {
+    cursor: pointer;
+}
+
+
+#resume .col-md-12 h4 {
+    text-align: center;
+    font-size: 24px;
+    word-spacing: 15px;
+    margin-top:10px;
+    margin-bottom: -25px;
+}
+
+#resume .col-md-12 img {
+    width: auto;
+    height: 50px;
+}
+
+#resume .modal img {
+    height: auto;
+    width: 300px;
+}
+
+#resume .modal p {
+    padding: 15px;
+    text-align: justify;
+}
+
+#resume button {
+    margin: auto;
+}
+
+.modal {
+    left: 300px;
+}
+
+.modal img {
+    max-height: 1000px;
+}
+
+/* ----------------------------- PROJECTS --------------------------- */
+
+.padding {
+    padding: 2rem 0;
+}
+
+#projects .col-md-6 {
+    max-width: 100%;
+    padding: 0;
+}
+
+.projects {
+    width: 100%;
+}
+
+
+
+/* ----------------------------- REVIEWS --------------------------- */
+
+#reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+#reviews h6 {
+    margin-top: -10px;
+}
+
+#reviews .col-md-4 {
+    padding: 10px 30px;
+}
+
+#reviews .col-md-4 span {
+    text-align: center;
+}
+
+#reviews img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: -40px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+}
+
+#reviews span {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#reviews h1 {
+    margin-top: -40px;
+    margin-bottom: 20px;
+
+}
+
+#reviews p {
+    padding-bottom: 20px;
+    
+}
+
+.review {
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.2);
+}
+
+.review .fa-airbnb {
+    color: red;
+}
+
+/* ----------------------------- CONTACT --------------------------- */
+
+.contact {
+    padding: 50px 20px;
+    background-color: #034b27;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    margin-bottom: -160px;
+}
+
+.contact h3, .contact p {
+    color: #fff;
+}
+
+.contact p {
+    font-size: 12px;
+}
+
+.contact .form-group {
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto; 
+    padding: 5px;
+}
+
+.contact button {
+    margin-bottom: 10px;
+    background-color:#034b27;
+    color: #fff;
+}
+
+
+/* ----------------------------- FOOTER --------------------------- */
+
+#footer {
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #000;
+}
+
+
+#footer h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#footer p {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+#footer .fab {
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+#linkedin {
+    color: #013f73;
+}
+
+#airbnb {
+    color:red;
+}
+
+
+#footer a {
+    color: #000;
+}
+
+
+
+
+
+/* ----------------------------- MEDIA QUERY --------------------------- */
+
+
+@media only screen and (max-width: 1200px) {
+
+    .welcome {
+        padding: 50px 132px;
+    }
+
+    .welcome h1 {
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .welcome {
+        padding: 70px 132px;
+    }
+
+    .welcome h1 {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+   
+    .welcome {
+        padding: 70px 75px;
+    }
+
+    .welcome h1 {
+        font-size: 13px;
+    }
+
+    #skills img {
+        visibility: hidden;
+        margin: 15;
+        height: 0;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+
+   
+    .welcome {
+        padding: 70px 100px;
+    }
+
+    .welcome h1 {
+        font-size: 10px;
+    }
+
+}
