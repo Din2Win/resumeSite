@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 
 #header {
@@ -42,7 +43,7 @@ nav .fa-bars {
 
 .welcome {
     max-height: 260px;
-    padding: 50px 115px;
+    padding: 40px 134px;
     margin-top: -200px;
     background-color: #fff;
     box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
@@ -64,6 +65,11 @@ nav .fa-bars {
 
 #about h1 {
     margin-top: -40px;
+}
+
+#about img{
+    border-radius: 350px;
+    width: 600px
 }
 
 #about .col-md-6 {
@@ -95,18 +101,23 @@ nav .fa-bars {
 }
 
 #skills h1 {
+    padding-top: 20px;
     text-align: center;
-    color: rgb(21, 255, 0);
+    color: white;
 }
 
-#skills .col-md-4 {
-    padding: 20px;
-    top: 50px;
+#skills .col-md-10 {
+    padding: 50px;
+    top: 0px;
 }
 
 #skills .container {
     background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
+}
+
+#skills h4 {
+    text-decoration: underline;
 }
 
 #skills img {
@@ -143,12 +154,12 @@ nav .fa-bars {
 
 .skills-box .skills-right h4 {
     padding-top: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .skills-box .skills-right p {
     padding: 0 5px 0 5px;
-    text-align: left;
+    text-align: center;
 }
 
 
