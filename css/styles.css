@@ -425,7 +425,7 @@ nav .fa-bars {
 @media only screen and (max-width: 991px) {
 
     .welcome {
-        padding: 70px 132px;
+        padding: 70px 100px;
     }
 
     .welcome h1 {
@@ -445,10 +445,37 @@ nav .fa-bars {
         font-size: 13px;
     }
 
-    #skills img {
-        visibility: hidden;
-        margin: 15;
-        height: 0;
+    h1 {
+        font-size: 20px;
+    }
+
+    #skills {
+        font-size: 12px;
+    }
+
+    .skills-box .skills-left .fab, .fa, .fas {
+        padding-top: 20px;
+        font-size: 50px;
+    }
+
+    #resume h4 {
+        font-size: 22px;
+    }
+    #resume .col-md-6 h4 p {
+        font-size: 13px;
+    }
+
+    #header {
+        height: 55vh;
+    }
+
+    #resume .col-md-6 ul {
+        text-align: left;
+        
+    }
+
+    .modal {
+        left: 10px;
     }
 
 }
@@ -457,11 +484,16 @@ nav .fa-bars {
 
    
     .welcome {
-        padding: 70px 100px;
+        padding: 70px 80px;
     }
 
     .welcome h1 {
         font-size: 10px;
+    }
+
+    .modal {
+        left: 10px;
+        width: 80%
     }
 
 }

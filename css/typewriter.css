@@ -25,3 +25,12 @@
         border-color: #000;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+
+   
+    .welcome h1 {
+        animation: none;
+    }
+
+}
