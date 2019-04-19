@@ -217,9 +217,6 @@ nav .fa-bars {
     cursor: pointer;
 }
 
-#resume .col-md-6 .beforePics:hover{
-    
-}
 
 #resume .col-md-12 h4 {
     text-align: center;
@@ -236,6 +233,7 @@ nav .fa-bars {
 
 #resume .modal img {
     height: auto;
+    max-height: 500px;
     width: 300px;
 }
 
