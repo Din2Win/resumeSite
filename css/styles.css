@@ -253,6 +253,10 @@ nav .fa-bars {
     margin: auto;
 }
 
+.modal-title{
+    text-align: center;
+}
+
 .modal {
     left: 300px;
 }
